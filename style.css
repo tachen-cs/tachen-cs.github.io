@@ -443,29 +443,30 @@ input[type=checkbox]:checked ~ .abstract  {
         font-size: 180%;
     }  
         .small, .big, .very_small{
-      font-size: 110%;
+      font-size: 160%;
       line-height: 0.5em;
     }
 }
 
-/*@media screen and (max-width: 480px){
+
+@media screen and (max-width: 480px){
     body{
         width:100%;
         font-size:6px;
     }
     h1 {
-        font-size: 300%;
+        font-size: 250%;
         padding-bottom: 1px;
         padding-top: 5px;
     }
     h4,h5 {
-        font-size: 250%;
-    } 
+        font-size: 300%;
+    }
     p, ul{
-        font-size: 140%;
+        font-size: 180%;
     }  
         .small, .big, .very_small{
-      font-size: 140%;
-      /*line-height: 1em;*/
+      font-size: 100%;
+      line-height: 0.5em;
     }
-}*/
+}
