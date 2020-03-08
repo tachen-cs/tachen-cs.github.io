@@ -443,12 +443,12 @@ input[type=checkbox]:checked ~ .abstract  {
         font-size: 180%;
     }  
         .small, .big, .very_small{
-      font-size: 160%;
-      line-height: 0.5em;
+      font-size: 180%;
+      line-height: 1.5em;
     }
 }
 
-
+/*
 @media screen and (max-width: 480px){
     body{
         width:100%;
@@ -469,4 +469,4 @@ input[type=checkbox]:checked ~ .abstract  {
       font-size: 100%;
       line-height: 0.5em;
     }
-}
+}*/
