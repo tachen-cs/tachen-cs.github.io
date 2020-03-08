@@ -429,10 +429,10 @@ input[type=checkbox]:checked ~ .abstract  {
 @media screen and (max-width: 600px){
     body{
         width:100%;
-        font-size:6px;
+        font-size:9px;
     }
     h1 {
-        font-size: 230%;
+        font-size: 300%;
         padding-bottom: 1px;
         padding-top: 5px;
     }
@@ -440,11 +440,11 @@ input[type=checkbox]:checked ~ .abstract  {
         font-size: 250%;
     }
     p, ul{
-        font-size: 160%;
+        font-size: 180%;
     }  
         .small, .big, .very_small{
-      font-size: 160%;
-      line-height: 0.5em;
+      font-size: 180%;
+      /*line-height: 0.5em;*/
     }
 }
 
@@ -454,18 +454,18 @@ input[type=checkbox]:checked ~ .abstract  {
         font-size:6px;
     }
     h1 {
-        font-size: 230%;
+        font-size: 300%;
         padding-bottom: 1px;
         padding-top: 5px;
     }
     h4,h5 {
-        font-size: 180%;
+        font-size: 250%;
     } 
     p, ul{
-        font-size: 120%;
+        font-size: 200%;
     }  
         .small, .big, .very_small{
-      font-size: 120%;
+      font-size: 200%;
       /*line-height: 1em;*/
     }
 }
