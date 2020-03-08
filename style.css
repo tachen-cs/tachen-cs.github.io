@@ -466,7 +466,7 @@ input[type=checkbox]:checked ~ .abstract  {
         font-size: 180%;
     }  
         .small, .big, .very_small{
-      font-size: 100%;
+      font-size: 120%;
       line-height: 0.5em;
     }
 }
