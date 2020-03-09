@@ -331,7 +331,7 @@ a:active {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         /*font-size: 18px;*/
         font-size: 86%;
-        line-height: 0.5em;
+        margin:0px;
         color: #474747;       
       }  
       .big {
@@ -339,7 +339,6 @@ a:active {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         /*font-size: 18px;*/
         font-size: 86%;
-        line-height: 1em;
         color: #474747;       
 
       }
@@ -348,7 +347,6 @@ a:active {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         /*font-size: 18px;*/
         font-size: 80%;
-        line-height: 1.3em;
         color: #474747;       
 
       }   
