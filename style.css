@@ -402,9 +402,9 @@ input[type=checkbox]:checked ~ .abstract  {
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
     body{
-        width:600px;
+        width:800px;
         font-size:12px;
     }
     h1 {
@@ -424,7 +424,7 @@ input[type=checkbox]:checked ~ .abstract  {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     body{
         width:100%;
         font-size:6px;
