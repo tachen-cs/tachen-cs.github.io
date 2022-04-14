@@ -118,7 +118,7 @@
 /*=================================audio player above=========================*/
 
 body{
-    width:800px;
+    width:1200px;
     max-width: 100%
 	  text-align:center;
     margin:0 auto;
@@ -191,7 +191,7 @@ a:active {
         div.abstract {
         	padding: 1em 1em 1em 1em;
 	      	background-color: #c6c6c6;
-	      	max-width: 90%;
+	      	max-width: 100%;
 			margin: 0 auto !important; 
 			float: none !important;
           }
@@ -404,7 +404,7 @@ input[type=checkbox]:checked ~ .abstract  {
 
 @media screen and (max-width: 1200px){
     body{
-        width:800px;
+        width:1200px;
         font-size:12px;
     }
     h1 {
@@ -424,7 +424,7 @@ input[type=checkbox]:checked ~ .abstract  {
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     body{
         width:100%;
         font-size:6px;
@@ -447,7 +447,7 @@ input[type=checkbox]:checked ~ .abstract  {
 }
 
 /*
-@media screen and (max-width: 480px){
+@media screen and (max-width: 800px){
     body{
         width:100%;
         font-size:6px;
