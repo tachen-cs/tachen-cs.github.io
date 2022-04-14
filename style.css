@@ -163,14 +163,14 @@ a:active {
     /*上 右 下 左*/
     padding: 1em 1em 1em 1em; 
     max-width: 95%;
-    /*background-color: #F8F8F8;*/
+    background-color: #FFFFFF;
     /*max-width: 90%;*/
     margin: 0 auto !important; 
     float: none !important; ;
 } 
 .no_boxed {
   max-width: 95%;
-   background-color: #F8F8F8;
+   background-color: #FFFFFF;
   margin: 0 auto !important; 
   float: none !important; ;   
 }                    		
