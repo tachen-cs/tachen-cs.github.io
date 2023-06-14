@@ -37,6 +37,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body>
+	<script>
+	function showHideNews() {
+	    var x = document.getElementById("extraNews");
+	    if (x.style.display === "none") {
+		x.style.display = "block";
+	    } else {
+		x.style.display = "none";
+	    }
+	}
+	</script>
+  
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWPB63L"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -76,6 +87,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- 		<p>[Dec, 2022] Invited to serve as the TPC of IEEE Cloud Summit 2023. </p> -->
 		<p>[Dec, 2022] Humbled to receive the ACM SIGMOBILE Student Community Grant award! </p>
 		<p>[Nov, 2022] SpotSound is accepted by MobiCom 2023! </p>
+		<button onclick="showHideNews()">More</button>
+		<div id="extraNews">
+			<div class="news_item">
+			<p>News item 4</p>
+			</div>
+		</div>
+			
 		
   	</div>          
         <h1></h1>
