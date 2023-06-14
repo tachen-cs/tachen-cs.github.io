@@ -24,10 +24,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
 function showHideNews() {
     var x = document.getElementById("extraNews");
-    if (x.style.display === "block") {
+    if (x.style.display === "none") {
 	x.style.display = "none";
     } else {
-	x.style.display = "block";
+	x.style.display = "none";
     }
 }
 </script>
@@ -87,7 +87,7 @@ function showHideNews() {
 <!-- 		<p>[Dec, 2022] Invited to serve as the TPC of IEEE Cloud Summit 2023. </p> -->
 		<p>[Dec, 2022] Humbled to receive the ACM SIGMOBILE Student Community Grant award! </p>
 		<p>[Nov, 2022] SpotSound is accepted by MobiCom 2023! </p>
-		<a onclick="showHideNews()">More </a>
+		<p onclick="showHideNews()" target="_blank" More... </p>
 		<div id="extraNews">
 			<p>News item 4</p>
 		</div>
