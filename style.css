@@ -468,3 +468,7 @@ input[type=checkbox]:checked ~ .abstract  {
       line-height: 0.5em;
     }
 }*/
+
+#extraNews {
+    display: none;
+}
