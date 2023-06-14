@@ -472,3 +472,17 @@ input[type=checkbox]:checked ~ .abstract  {
 #extraNews {
     display: none;
 }
+
+.moreButton {
+    background-color: #FFFFFF; /* 按钮的背景颜色 */
+    color: black; /* 文字颜色 */
+    padding: 15px 32px; /* 上下15px的填充，左右32px的填充 */
+    text-align: left; /* 文字居中 */
+    text-decoration: none; /* 取消文字下划线 */
+    display: inline-block;
+    font-size: 16px; /* 文字大小 */
+    margin: 4px 2px;
+    cursor: pointer; /* 鼠标悬停时变为手形图标 */
+    border-radius: 4px; /* 圆角边框 */
+}
+
